@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boston – Navigazione a piedi</title>
+<style>
+:root { --blue:#073b78; --light:#f3f7fb; --border:#d7e0ea; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--light); color:#17202a; }
+header { background:var(--blue); color:white; padding:22px 18px; text-align:center; }
+header h1 { margin:0; font-size:25px; }
+header p { margin:8px 0 0; font-size:14px; opacity:.92; }
+main { max-width:720px; margin:auto; padding:14px; }
+.card { background:white; border:1px solid var(--border); border-radius:14px; padding:15px; margin:11px 0; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+.row { display:flex; gap:12px; align-items:flex-start; }
+.num { flex:0 0 44px; width:44px; height:44px; border-radius:50%; background:var(--blue); color:white; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:bold; }
+.text { flex:1; }
+h2 { margin:2px 0 6px; font-size:18px; }
+.note { margin:0 0 12px; color:#52606d; font-size:14px; line-height:1.35; }
+.btn { display:block; text-align:center; background:var(--blue); color:white; font-weight:bold; text-decoration:none; padding:12px 14px; border-radius:9px; }
+.tip { background:#fff8e6; border:1px solid #f0cf78; padding:13px; border-radius:12px; font-size:14px; line-height:1.4; margin:14px 0; }
+footer { text-align:center; color:#667; font-size:12px; padding:10px 18px 24px; }
+</style>
+</head>
+<body>
+<header>
+<h1>Boston – Navigazione a piedi</h1>
+<p>5 dicembre 2026 · tappe del roadbook</p>
+</header>
+<main>
+<div class="tip"><b>Uso:</b> quando sei arrivato a una tappa, premi il pulsante successivo. Google Maps si apre in modalità pedonale. Il roadbook cartaceo resta il riferimento se Maps propone una variante.</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">①</div>
+    <div class="text">
+      <h2>South Station → Public Garden</h2>
+      <p class="note">Via Downtown Crossing e Boylston Street</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Boston+South+Station%2C+Boston%2C+MA&destination=Boston+Public+Garden%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate&waypoints=Downtown+Crossing%2C+Boston%2C+MA|Boylston+Street+and+Tremont+Street%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">②</div>
+    <div class="text">
+      <h2>Public Garden → Boston Common</h2>
+      <p class="note">Attraversamento di Charles Street</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden%2C+Boston%2C+MA&destination=Boston+Common+Visitor+Center%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">③</div>
+    <div class="text">
+      <h2>Freedom Trail → Quincy Market</h2>
+      <p class="note">Via Granary, King's Chapel e Old State House</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Boston+Common+Visitor+Center%2C+Boston%2C+MA&destination=Quincy+Market%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate&waypoints=Granary+Burying+Ground%2C+Boston%2C+MA|King%27s+Chapel%2C+Boston%2C+MA|Old+State+House%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">④</div>
+    <div class="text">
+      <h2>Quincy Market / Faneuil Hall</h2>
+      <p class="note">Sosta pranzo: apre il luogo su Google Maps</p>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Quincy+Market%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑤</div>
+    <div class="text">
+      <h2>Quincy Market → Long Wharf</h2>
+      <p class="note">Percorso verso il porto</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Quincy+Market%2C+Boston%2C+MA&destination=Long+Wharf%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑥</div>
+    <div class="text">
+      <h2>Long Wharf → Christopher Columbus Park</h2>
+      <p class="note">Lungo il waterfront</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Long+Wharf%2C+Boston%2C+MA&destination=Christopher+Columbus+Waterfront+Park%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑦</div>
+    <div class="text">
+      <h2>Christopher Columbus Park → North End</h2>
+      <p class="note">Ingresso nel North End da Richmond/Hanover Street</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Christopher+Columbus+Waterfront+Park%2C+Boston%2C+MA&destination=Mike%27s+Pastry%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate&waypoints=Richmond+Street%2C+Boston%2C+MA|Hanover+Street%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑧</div>
+    <div class="text">
+      <h2>North End → Beacon Hill / Acorn Street</h2>
+      <p class="note">Via Government Center e Cambridge Street</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Mike%27s+Pastry%2C+Boston%2C+MA&destination=Acorn+Street%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate&waypoints=Government+Center%2C+Boston%2C+MA|Cambridge+Street+and+Bowdoin+Street%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑨</div>
+    <div class="text">
+      <h2>Beacon Hill → Downtown Crossing</h2>
+      <p class="note">Passaggio attraverso Boston Common</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Acorn+Street%2C+Boston%2C+MA&destination=Downtown+Crossing%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate&waypoints=Boston+Common+Visitor+Center%2C+Boston%2C+MA">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑩</div>
+    <div class="text">
+      <h2>Downtown Crossing → High Street Place</h2>
+      <p class="note">Per la cena veloce</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Downtown+Crossing%2C+Boston%2C+MA&destination=High+Street+Place+Food+Hall%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="row">
+    <div class="num">⑪</div>
+    <div class="text">
+      <h2>High Street Place → South Station</h2>
+      <p class="note">Rientro per il treno Amtrak delle 19:55</p>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=High+Street+Place+Food+Hall%2C+Boston%2C+MA&destination=Boston+South+Station%2C+Boston%2C+MA&travelmode=walking&dir_action=navigate">APRI IN GOOGLE MAPS</a>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>Roadbook Boston · Marco e Laura</footer>
+</body>
+</html>
